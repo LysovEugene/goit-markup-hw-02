@@ -114,6 +114,17 @@ body {
   text-align: center;
 }
 
+/* наша команда */
+.social-network .link {
+  text-decoration: none;
+  color: var(--title-text-color);
+}
+
+.social-network .link:hover,
+.social-network .link:focus {
+  color: var(--accent-color);
+}
+
 /* Футер  */
 
 .logo-color-footer {
@@ -148,4 +159,10 @@ body {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
+}
+/* наши клиеенты */
+
+.our-clients .link:hover,
+.our-clients .link:focus {
+  color: var(--accent-color);
 }
